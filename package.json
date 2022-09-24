@@ -1,10 +1,11 @@
 {
   "name": "io-ts-miniprogram",
-  "version": "2.2.18-alpha.3",
+  "version": "2.2.18-alpha.4",
   "description": "TypeScript runtime type system for IO decoding/encoding",
   "main": "lib/index.js",
   "module": "es6/index.js",
   "typings": "lib/index.d.ts",
+  "miniprogram": "lib",
   "sideEffects": false,
   "scripts": {
     "lint": "tslint -p .",
