@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "module": "es6/index.js",
   "typings": "lib/index.d.ts",
+  "files": ["lib/*", "package.json", "LICENSE", "README.md", "CHANGELOG.md"],
   "sideEffects": false,
   "scripts": {
     "lint": "tslint -p .",
