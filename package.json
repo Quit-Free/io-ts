@@ -1,6 +1,6 @@
 {
   "name": "@Quit-Free/io-ts",
-  "version": "2.2.18",
+  "version": "2.2.18-1",
   "description": "TypeScript runtime type system for IO decoding/encoding",
   "main": "lib/index.js",
   "module": "es6/index.js",
