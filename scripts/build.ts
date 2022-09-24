@@ -27,7 +27,7 @@ export const copyPackageJson: Build<void> = (C) =>
     TE.chain((json) => C.writeFile(path.join(OUTPUT_FOLDER, PKG), JSON.stringify(json, null, 2)))
   )
 
-export const FILES: ReadonlyArray<string> = ['CHANGELOG.md', 'LICENSE', 'README.md']
+export const FILES: ReadonlyArray<string> = ['CHANGELOG.md', 'LICENSE', 'README.md', '.npmrc']
 
 export const copyFiles: Build<ReadonlyArray<void>> = (C) =>
   A.readonlyArray.traverse(TE.taskEither)(FILES, (from) => C.copyFile(from, path.resolve(OUTPUT_FOLDER, from)))
