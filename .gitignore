@@ -6,3 +6,4 @@ coverage
 declaration/out/src
 
 .idea
+.DS_Store

@@ -20,6 +20,7 @@ export const copyPackageJson: Build<void> = (C) =>
       const clone = Object.assign({}, v as any)
 
       delete clone.scripts
+      delete clone.files
       delete clone.devDependencies
 
       return clone
