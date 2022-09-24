@@ -8,8 +8,8 @@
  *
  * @since 2.2.0
  */
-import { Refinement } from 'fp-ts/lib/function'
-import { HKT, Kind, Kind2, URIS, URIS2 } from 'fp-ts/lib/HKT'
+import { Refinement } from 'fp-ts/function'
+import { HKT, Kind, Kind2, URIS, URIS2 } from 'fp-ts/HKT'
 
 /**
  * @since 2.2.0

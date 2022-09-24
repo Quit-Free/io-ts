@@ -1,5 +1,5 @@
 {
-  "name": "io-ts",
+  "name": "@Quit-Free/io-ts",
   "version": "2.2.18",
   "description": "TypeScript runtime type system for IO decoding/encoding",
   "main": "lib/index.js",
@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/gcanti/io-ts",
   "peerDependencies": {
-    "fp-ts": "^2.5.0"
+    "fp-ts": "^2.12.3"
   },
   "devDependencies": {
     "@types/benchmark": "1.0.31",

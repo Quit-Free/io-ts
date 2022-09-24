@@ -8,9 +8,9 @@
  *
  * @since 2.2.3
  */
-import * as E from 'fp-ts/lib/Either'
-import { identity, Refinement } from 'fp-ts/lib/function'
-import { pipe } from 'fp-ts/lib/pipeable'
+import * as E from 'fp-ts/Either'
+import { identity, Refinement } from 'fp-ts/function'
+import { pipe } from 'fp-ts/pipeable'
 import * as t from './index'
 import * as S from './Schemable'
 
@@ -189,7 +189,7 @@ export const URI = 'io-ts/Type'
  */
 export type URI = typeof URI
 
-declare module 'fp-ts/lib/HKT' {
+declare module 'fp-ts/HKT' {
   interface URItoKind<A> {
     readonly [URI]: Type<A>
   }
